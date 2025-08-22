@@ -1,0 +1,56 @@
+{
+  "name": "Persistence Test Library",
+  "books": [
+    {
+      "book_id": 1,
+      "title": "Persistent Book 1",
+      "author": "Author A",
+      "isbn": "111-111",
+      "publication_year": 2020,
+      "available": true
+    },
+    {
+      "book_id": 2,
+      "title": "Persistent Book 2",
+      "author": "Author B",
+      "isbn": "222-222",
+      "publication_year": 2021,
+      "available": true
+    }
+  ],
+  "members": [
+    {
+      "member_id": 1,
+      "name": "Persistent Member 1",
+      "email": "member1@test.com",
+      "phone": "555-1111",
+      "borrowed_books": []
+    },
+    {
+      "member_id": 2,
+      "name": "Persistent Member 2",
+      "email": "member2@test.com",
+      "phone": "555-2222",
+      "borrowed_books": []
+    }
+  ],
+  "librarians": [
+    {
+      "librarian_id": 1,
+      "name": "Persistent Librarian 1",
+      "email": "lib1@test.com"
+    },
+    {
+      "librarian_id": 2,
+      "name": "Persistent Librarian 2",
+      "email": "lib2@test.com"
+    }
+  ],
+  "transactions": [],
+  "next_ids": {
+    "book": 1,
+    "member": 1,
+    "librarian": 1,
+    "transaction": 1
+  }
+}
